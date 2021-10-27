@@ -21,4 +21,4 @@ if len(a_3_so_lien_tiep)!=0:
 elif len(a_chu_so)==0:
     print('Mật khẩu không có số')
     exit()
-print(data)
+# print(data) # Removing this code based on the requirement
