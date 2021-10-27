@@ -23,3 +23,4 @@ elif len(a_chu_so)==0:
     exit()
 print('password của mày OK đó',data)
 #Thiện
+#Di dau day
