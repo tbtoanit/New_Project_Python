@@ -23,3 +23,4 @@ elif len(a_chu_so)==0:
     exit()
 # print(data) #Removing this code based on the requirement.
 #Add the line
+print('abc')
