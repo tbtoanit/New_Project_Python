@@ -10,16 +10,15 @@ a_viet_hoa = re.findall(pt1,data)
 a_3_so_lien_tiep= re.findall(pt2,data)
 a_chu_so= re.findall(pt2_1,data)
 a_ky_tu_dac_biet= re.findall(pt3,data)
-# if len(a_viet_hoa)==0:
-#     print('Mật khẩu không có ít nhất một chữ in hoa')
-# if len(a_ky_tu_dac_biet)==0:
-#     print('Mật khẩu không có ít nhất một ký tự đặc biệt')
-#     exit()
-# if len(a_3_so_lien_tiep)!=0:
-#     print('Mật có 3 số liên tiếp')
-#     exit()
-# elif len(a_chu_so)==0:
-#     print('Mật khẩu không có số')
-#     exit()
-# print(data)
-
+if len(a_viet_hoa)==0:
+    print('Mật khẩu không có ít nhất một chữ in hoa')
+if len(a_ky_tu_dac_biet)==0:
+    print('Mật khẩu không có ít nhất một ký tự đặc biệt')
+    exit()
+if len(a_3_so_lien_tiep)!=0:
+    print('Mật có 3 số liên tiếp')
+    exit()
+elif len(a_chu_so)==0:
+    print('Mật khẩu không có số')
+    exit()
+print(data)
